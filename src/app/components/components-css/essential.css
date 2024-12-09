@@ -18,24 +18,17 @@
 }
 
 .ess_pics_div {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+    justify-content: space-evenly;
     /* Space between each card */
-    gap: 5px;
     /* Adjust gap between images */
 }
 
 .ess_piv {
     position: relative;
-    /* Necessary for positioning the button */
-    width: 450px;
-    /* Matches the Image component dimensions */
-    height: 540px;
-    /* Matches the Image component dimensions */
-    overflow: hidden;
-    /* Ensures content doesn't spill out */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Optional: adds a shadow effect */
+    width: 100%;
 }
 
 
@@ -57,4 +50,36 @@
     border-radius: 20px;
     /* Optional: rounded button */
     font-weight: 400;
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .ess_pics_div {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .ess_container {
+        align-items: center;
+    }
+}
+
+
+@media(max-width: 375px){
+    .ess_pics_div {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .ess_container {
+        align-items: center;
+        padding: 20px 20px;
+    }
 }

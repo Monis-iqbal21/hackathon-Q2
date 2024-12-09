@@ -65,11 +65,16 @@ const GearUp = () => {
                     {/* product making    END  */}
                 </div>
 
+                {/* shop men + navi btn  END*/}
 
+
+
+
+                {           /* women section */}
 
                 <div className='split_section_div'>
                     <div className='men_women_div2'>
-                        <Link href={"/"} className='men_women_text'>Shop Men&apos;s</Link>
+                        <Link href={"/"} className='men_women_text'>Shop Women&apos;s</Link>
 
                         <Link href={"/"} className="bg-[#f7f7f7] link_men_women_arrow">
                             <span className="text-[#bebebe] Link_text">&lt;</span>
@@ -80,23 +85,9 @@ const GearUp = () => {
                         </Link>
                     </div>
 
-                    {/* shop men + navi btn  END*/}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-                    {/* women section */}
 
 
 

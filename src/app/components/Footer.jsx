@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
 
                     <div className='footer_main_link padding_class2'>
-                        <p className='padding_class white_class' >ABOUT NIKE</p>
+                        <p className='about_nike padding_class white_class' >ABOUT NIKE</p>
                         <Link href={"/"} className='grey_font'>News</Link>
                         <Link href={"/"} className='grey_font'>Careers</Link>
                         <Link href={"/"} className='grey_font'>Investors</Link>

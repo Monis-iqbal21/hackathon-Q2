@@ -12,7 +12,7 @@ const Featured = () => {
                 <div>
                     <Image src="/images/feature.png" width={1380} height={700} alt='man running'></Image>
                 </div>
-                <div className='feature_detail_div'>
+                <div className='w-full feature_detail_div' >
                     <p className='feature_p1'>STEP INTO WHAT FEELS GOOD</p>
                     <p className='feature_p2'>Cause everyone should know the feeling of running in that perfect pair.</p>
                     <div className='feature_link_div'><Link href={"/"} className='featured_link'>Find Your Shoe</Link></div>

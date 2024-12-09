@@ -16,15 +16,15 @@ const Navbar = () => {
             {/*  top navbar   */}
             <div className='nav_top_container w-full'>
                 <div>
-                <Link href={"/"}><Image src={logo} alt="Logo" width={24} height={24}></Image></Link>
+                    <Link href={"/"} ><Image src={logo} alt="Logo" width={24} height={24} ></Image></Link>
                 </div>
 
 
                 <div className='top_nav_links'>
-                    <Link href="#" className=''>Find a Store</Link>|
-                    <Link href="#" className=''>Help</Link>|
-                    <Link href="#" className=''>Join Us</Link>|
-                    <Link href="#" className=''>Sign In</Link>
+                    <Link href="/all-product" className=''>Find a Store</Link>|
+                    <Link href="/all-product" className=''>Help</Link>|
+                    <Link href="/all-product" className=''>Join Us</Link>|
+                    <Link href="/all-product" className=''>Sign In</Link>
                 </div>
             </div>
 
@@ -39,17 +39,17 @@ const Navbar = () => {
 
 
                 <div className='w-[78.5px]'>
-                    <Link href={"/"}><Image src={logo2} alt='' width={58.8} height={20.5}></Image></Link>
+                    <Link href={"/"} ><Image src={logo2} alt='' className='bottom_nav_pic' width={58.8} height={20.5}></Image></Link>
                 </div>
 
 
                 <div className='nav_bottom_link_div'>
-                    <Link href="#" className='navBottom_link'>New & Featured</Link>
-                    <Link href="#" className='navBottom_link'>Men</Link>
-                    <Link href="#" className='navBottom_link'>Women</Link>
-                    <Link href="#" className='navBottom_link'>Kids</Link>
-                    <Link href="#" className='navBottom_link'>Sale</Link>
-                    <Link href="#" className='navBottom_link'>SNKRS</Link>
+                    <Link href="/all-product" className='navBottom_link'>New & Featured</Link>
+                    <Link href="/all-product" className='navBottom_link'>Men</Link>
+                    <Link href="/all-product" className='navBottom_link'>Women</Link>
+                    <Link href="/all-product" className='navBottom_link'>Kids</Link>
+                    <Link href="/all-product" className='navBottom_link'>Sale</Link>
+                    <Link href="/all-product" className='navBottom_link'>SNKRS</Link>
                 </div>
 
 
@@ -63,7 +63,10 @@ const Navbar = () => {
 
                         <input type="text" placeholder='Search' className='search_input_field' />
                     </div>
-                    <Link href={"/"}><Image src={love} alt='search' width={16.7} height={16.7}></Image></Link>
+                    <Link href="/all-product">
+                        <Image src={love} alt="search" width={16.7} height={16.7} />
+                    </Link>
+
                     <Link href={"/"}> <Image src={shop} alt='search' width={16.7} height={16.7}></Image></Link>
                 </div>
 

@@ -25,12 +25,13 @@
 }
 
 .top_nav_links {
-    width: 332.8px;
     height: 36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    gap: 20px;
+    padding: 5px;
 
 }
 
@@ -48,7 +49,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 
@@ -115,3 +116,124 @@
 
 
 
+
+@media (max-width: 1024px) {
+   
+    .nav_bottom_link_div{
+        display: flex;
+        justify-content: space-between;
+        width: 760px;
+        padding: 0 25px 0 190px;
+    }
+    .navBottom_link {
+        border-radius: 10px;
+        padding: 5px 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+   
+    .nav_bottom_link_div{
+        display: flex;
+        justify-content: space-between;
+        width: 760px;
+        padding: 0 5px 0 10px;
+    }
+
+    .nav_bottom_container {
+        padding: 0 20px 0 20px;
+    }
+    .nav_bottom_search_cart_div {
+        width: 364px;
+    }
+    .navBottom_link {
+        border-radius: 10px;
+        padding: 5px 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+
+    .top_nav_links{
+gap: 10px;
+    }
+.nav_bottom_container {
+    height: 150px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.nav_bottom_link_div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 5px 0 10px;
+}
+
+.bottom_nav_pic{
+    padding: 10px 0;
+}
+
+.navBottom_link {
+    border-radius: 10px;
+    padding: 5px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+}
+
+
+
+@media(max-width: 375px){
+    .nav_bottom_link_div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0 5px 0 10px;
+        flex-wrap: wrap;
+    
+    }
+    .top_nav_links{
+        gap: 5px;
+            }
+}
+
+
+
+@media(max-width: 320px){
+.nav_bottom_search_cart_div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.nav_top_container {
+    padding: 0 16px;
+}
+.top_nav_links{
+    gap: 5px;
+        }
+        .nav_top_container {
+            padding: 0 0px 0 10px;
+        }
+
+}

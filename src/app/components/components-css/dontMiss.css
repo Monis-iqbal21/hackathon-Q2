@@ -1,34 +1,30 @@
-.feature_main_container{
-    padding: 0px 48px 0px 48px;
-    margin: 0 0 100px 0;
-    height: 977px;
+.dontMiss_main_container{
+    padding: 30px 48px 40px 48px;
+    margin: 0 0 ;
     
 }
 
 
-.feature_heading{
+.dontMiss_heading{
 
 font-size: 23px;
 font-weight:500 ;
 line-height: 28px;
 height: 47px;
-text-align: left;
 justify-content: center;
 }
 
 
 /*   detail section */
 
-.image_detail_div{
-    height: 925px;
+.dontMiss_image_detail_div{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
-.feature_detail_div{
-    height: 177px;
-    width: 1008px;
+.dontMiss_detail_div{
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -36,26 +32,80 @@ justify-content: center;
     flex-direction: column;
 }
 
-.feature_p1{
-font-weight: 500 ;
-font-size: 54px;
-line-height: 60px;
+.dontMiss_p1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20px;
+
 }
 
-.feature_p2{
+.dontMiss_p2{
     font-weight:400 ;
 font-size: 15px;
 line-height: 24px;
+margin-bottom: 20px;
 }
 
 
-.feature_link_div{
+.dontMiss_link_div{
+    padding: 10px 0;
 }
-.featured_link{
+.dontMiss_link{
 
     padding: 10px 20px;
-    margin-top: 20px;
+    margin: 20px 0;
     background-color: black;
     color: white;
     border-radius: 30px;
+}
+
+
+
+
+
+@media(max-width: 768px){
+    .dontMiss_main_container {
+        padding: 0 48px;
+    }
+    .dontMiss_detail_div{
+        row-gap: 0px;
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width: 425px){
+    .dontMiss_main_container {
+        padding: 0 5px;
+    }
+    .dontMiss_heading{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+}
+
+@media(max-width: 375px){
+    .dontMiss_main_container {
+        padding: 0 5px;
+    }
+    .dontMiss_heading{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+}
+
+
+@media(max-width: 320px){
+    .dontMiss_main_container {
+        padding: 0 5px;
+    }
+    .dontMiss_heading{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
 }

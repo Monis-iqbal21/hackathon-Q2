@@ -77,3 +77,36 @@
 .f_link{
     margin: 0 5px;
 }
+
+
+
+
+
+@media(max-width: 768px){
+.social_links {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+}
+
+@media(max-width: 425px){
+
+    .social_links{
+        width: 70px;
+        align-items: end;
+    }
+.padding_class {
+    padding-left: 40px;
+}
+
+.about_nike{
+    padding-left: 0px;
+}
+.padding_class2 {
+    padding-left: 20px;
+}
+}

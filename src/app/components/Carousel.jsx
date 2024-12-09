@@ -10,7 +10,7 @@ const Carousel = () => {
     return (
         <div className='cro_main_container'>
             <div className='heading_buttons_div'>
-                <div style={{ fontWeight: "500", fontSize: "22px", lineHeight: "28px" }}>Best Air Max</div>
+                <div style={{ fontWeight: "500", fontSize: "22px", lineHeight: "28px" }} className='navi_heading_best'>Best Air Max</div>
                 <div className='cro_link_div'>
 
 

@@ -5,7 +5,7 @@ import Link from 'next/link'
 const GreetingNike = () => {
     return (
         <div
-            className="flex flex-col justify-center items-center bg-gray-100 w-full h-[58px] text-center"
+            className="flex flex-col justify-center items-center bg-gray-100 w-full h-[58px] text-center main_greet_container"
             style={{ fontSize: "15px", lineHeight: "16px" }}
         >
             <p className="h-[17px]">Hello Nike App</p>

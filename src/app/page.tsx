@@ -12,17 +12,16 @@ import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <GreetingNike />
+    <div className="w-full" style={{border:"1px solid red"}}> 
+       <GreetingNike />
       <Hero />
       <Carousel />
       <Featured />
       <GearUp />
       <DontMiss />
       <Essential />
-      <AllLinks />
-      <Footer />
+      {/*<AllLinks />
+      */}
     </div>
   );
 }
