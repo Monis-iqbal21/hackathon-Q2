@@ -17,7 +17,7 @@ const AllLinks = () => {
 
 
             <div className='all_link_div'>
-                <p className='all_heading'>Shoes</p>
+                <p className='all_heading all_link_div'>Shoes</p>
                 <Link href={"/"} className='all_link'>All Shoes</Link>
                 <Link href={"/"} className='all_link'>Custom Shoes</Link>
                 <Link href={"/"} className='all_link'>Jordan Shoes</Link>
@@ -27,7 +27,7 @@ const AllLinks = () => {
 
 
 
-            <div className='all_link_div'>
+            <div className='border_class'>
                 <p className='all_heading'>Clothing</p>
                 <Link href={"/"} className='all_link'>All Clothing</Link>
                 <Link href={"/"} className='all_link'>Modest Wear</Link>
@@ -38,7 +38,7 @@ const AllLinks = () => {
 
 
 
-            <div className='all_link_div'>
+            <div className='border_class all_link_div'>
                 <p className='all_heading'>Kid&apos;s</p>
                 <Link href={"/"} className='all_link'>Infant & Toddlers Shoes</Link>
                 <Link href={"/"} className='all_link'>Kid&apos;s Shoes</Link>

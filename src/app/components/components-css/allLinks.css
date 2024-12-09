@@ -1,8 +1,10 @@
 .all_link_container{
-    width: 880px;
+    width: 100%;
     margin: 100px auto;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 200px;
+    gap: 20px;
     
 }
 
@@ -23,4 +25,37 @@
     font-weight: 500;
     color: #757575;
     line-height: 40px;
+}
+
+@media(max-width: 768px){
+    .all_link_container{
+        padding: 0 100px;
+    }
+
+}
+
+
+@media(max-width: 425px){
+    .all_link_container{
+        width: 100%;
+        margin: 100px auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 15px;
+        text-align: center;
+        
+    }
+
+    .all_heading{
+        text-decoration: underline;
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 375px){
+    .all_link_container{
+        padding: 0 20px 0 0px;
+    }
+
 }
