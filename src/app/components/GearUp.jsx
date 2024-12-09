@@ -16,7 +16,7 @@ const GearUp = () => {
                     {/* shop men + navi btn */}
 
                     <div className='men_women_div2'>
-                        <Link href={"/"} className='men_women_text'>Shop Men's</Link>
+                        <Link href={"/"} className='men_women_text'>Shop Men&apos;s</Link>
 
                         <Link href={"/"} className="bg-[#f7f7f7] link_men_women_arrow">
                             <span className="text-[#bebebe] Link_text">&lt;</span>
@@ -38,7 +38,7 @@ const GearUp = () => {
                             <div className='gear_detail_section'>
                                 <div>
                                     <p className='gear_pro_heading'>Nike Dri-FIT ADV TechKnit Ultra</p>
-                                    <p className='gear_pro_detail'>Men's Short-Sleeve Running Top</p>
+                                    <p className='gear_pro_detail'>Men&apos;s Short-Sleeve Running Top</p>
 
                                 </div>
                                 <div className='gear_pro_price'>
@@ -53,7 +53,7 @@ const GearUp = () => {
                             <div className='gear_detail_section'>
                                 <div>
                                     <p className='gear_pro_heading'>Nike Dri-FIT Challenger</p>
-                                    <p className='gear_pro_detail'>Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
+                                    <p className='gear_pro_detail'>Men&apos;s 18cm (approx.) 2-in-1 Versatile Shorts</p>
 
                                 </div>
                                 <div className='gear_pro_price'>
@@ -69,7 +69,7 @@ const GearUp = () => {
 
                 <div className='split_section_div'>
                     <div className='men_women_div2'>
-                        <Link href={"/"} className='men_women_text'>Shop Men's</Link>
+                        <Link href={"/"} className='men_women_text'>Shop Men&apos;s</Link>
 
                         <Link href={"/"} className="bg-[#f7f7f7] link_men_women_arrow">
                             <span className="text-[#bebebe] Link_text">&lt;</span>
@@ -111,7 +111,7 @@ const GearUp = () => {
                             <div className='gear_detail_section'>
                                 <div>
                                     <p className='gear_pro_heading'>Nike Dri-FIT ADV Run Division</p>
-                                    <p className='gear_pro_detail'>Women's Long-Sleeve Running Top</p>
+                                    <p className='gear_pro_detail'>Women&apos;s Long-Sleeve Running Top</p>
 
                                 </div>
                                 <div className='gear_pro_price'>
@@ -126,7 +126,7 @@ const GearUp = () => {
                             <div className='gear_detail_section'>
                                 <div>
                                     <p className='gear_pro_heading'>Nike Fast</p>
-                                    <p className='gear_pro_detail'>Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
+                                    <p className='gear_pro_detail'>Women&apos;s Mid-Rise 7/8 Running Leggings with Pockets</p>
 
                                 </div>
                                 <div className='gear_pro_price'>

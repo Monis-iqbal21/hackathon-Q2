@@ -10,15 +10,15 @@ const Essential = () => {
 
                 <div className='ess_piv'>
                     <Image src="/images/men.png" width={450} height={550} alt='shoes'></Image>
-                    <Link href={"/"} className='ess_btn'>Men's </Link>
+                    <Link href={"/"} className='ess_btn'>Men&apos;s </Link>
                 </div>
                 <div className='ess_piv'>
                     <Image src="/images/women.png" width={450} height={550} alt='shoes'></Image>
-                    <Link href={"/"} className='ess_btn'>Women's </Link>
+                    <Link href={"/"} className='ess_btn'>Women&apos;s </Link>
                 </div>
                 <div className='ess_piv'>
                     <Image src="/images/kid.png" width={450} height={550} alt='shoes'></Image>
-                    <Link href={"/"} className='ess_btn'>Kid's </Link>
+                    <Link href={"/"} className='ess_btn'>Kid&apos;s </Link>
                 </div>
 
             </div>

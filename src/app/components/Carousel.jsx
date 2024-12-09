@@ -41,7 +41,7 @@ const Carousel = () => {
                     <div className='flex justify-between'>
                         <div>
                             <p className='pro_detail'>Nike Air Max 97 SE</p>
-                            <p className='pro_detail_gender'>Men's Shoes</p>
+                            <p className='pro_detail_gender'>Men&apos;s Shoes</p>
                         </div>
                         <div className='pro_price'>$16 995</div>
                     </div>
@@ -53,7 +53,7 @@ const Carousel = () => {
                     <div className='flex justify-between'>
                         <div>
                             <p className='pro_detail'>Nike Air Max 97 SE</p>
-                            <p className='pro_detail_gender'>Men's Shoes</p>
+                            <p className='pro_detail_gender'>Men&apos;s Shoes</p>
                         </div>
                         <div className='pro_price'>$16 995</div>
                     </div>
@@ -66,7 +66,7 @@ const Carousel = () => {
                     <div className='flex justify-between'>
                         <div>
                             <p className='pro_detail'>Nike Air Max 97 SE</p>
-                            <p className='pro_detail_gender'>Men's Shoes</p>
+                            <p className='pro_detail_gender'>Men&apos;s Shoes</p>
                         </div>
                         <div className='pro_price'>$16 995</div>
                     </div>

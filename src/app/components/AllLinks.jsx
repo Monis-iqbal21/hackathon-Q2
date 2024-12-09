@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import "./components-css/allLinks.css"
 
 const AllLinks = () => {
@@ -40,11 +39,11 @@ const AllLinks = () => {
 
 
             <div className='all_link_div'>
-                <p className='all_heading'>Kid's</p>
+                <p className='all_heading'>Kid&apos;s</p>
                 <Link href={"/"} className='all_link'>Infant & Toddlers Shoes</Link>
-                <Link href={"/"} className='all_link'>Kid's Shoes</Link>
-                <Link href={"/"} className='all_link'>Kid's Jordan Shoes</Link>
-                <Link href={"/"} className='all_link'>Kid's Basketball Shoes</Link>
+                <Link href={"/"} className='all_link'>Kid&apos;s Shoes</Link>
+                <Link href={"/"} className='all_link'>Kid&apos;s Jordan Shoes</Link>
+                <Link href={"/"} className='all_link'>Kid&apos;s Basketball Shoes</Link>
             </div>
 
 

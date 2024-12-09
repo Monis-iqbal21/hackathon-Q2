@@ -1,8 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import "./product.css"
-import product3 from "../../../../public/images/pro3.png"
 import product from "./product_array/product"
 
 
