@@ -1,0 +1,26 @@
+.all_link_container{
+    width: 880px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+.all_link_div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.all_heading{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.all_link{
+    font-size: 15px;
+    font-weight: 500;
+    color: #757575;
+    line-height: 40px;
+}

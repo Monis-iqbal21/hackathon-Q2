@@ -1,0 +1,107 @@
+.gear_heading {
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    height: 47px;
+    text-align: left;
+    justify-content: center;
+    padding-left: 48px;
+}
+
+
+/*   men  women */
+
+
+
+
+.link_men_women_arrow {
+    padding: 13px 20px 14px 20px;
+    border-radius: 100%;
+    margin-left: 10px;
+
+}
+
+
+
+.gear_main_container {
+    display: flex;
+    flex-direction: column;
+    height: 561px;
+
+}
+
+.men_women_div2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+
+}
+
+
+.section_split {
+    /* men women split to column */
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    padding-right: 48px;
+
+}
+
+.split_section_div {
+    height: 509px;
+}
+
+
+.product_main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+
+
+}
+
+.product_div {
+    display: flex;
+    flex-direction: column;
+    height: 393px;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.gear_detail_section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.gear_pro_heading {
+
+    font-size: 15px;
+    font-weight: 500;
+    width: 231px;
+}
+
+.gear_pro_detail {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    width: 194px;
+}
+
+
+.gear_pro_price {
+
+    font-size: 15px;
+    font-weight: 500;
+    width: 52px;
+}

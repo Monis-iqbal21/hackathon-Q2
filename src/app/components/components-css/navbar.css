@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/fonts/helvetica-neue-5/HelveticaNeue.ttf') format('truetype'); /* Adjust the path based on your file location */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+.navbar_main_container {
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.nav_top_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 36px;
+    padding: 0 36px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+}
+
+.top_nav_links {
+    width: 332.8px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+/*   bottom  navbar  */
+
+
+
+
+
+/*  middle section */
+.nav_bottom_container{
+    padding: 0 36px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav_bottom_link_div{
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    padding: 0 25px 0 210px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+.navBottom_link{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.navBottom_link:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+
+/*  right section */
+
+.search_div{
+    width: 180px;
+    height: 40px;
+    padding: 0 20px;
+    background-color: #f7f7f7;
+    border-radius:20px ;
+
+}
+
+
+.nav_bottom_search_cart_div{
+    width: 264px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img_search{
+    display: flex;
+    align-items: center;
+}
+
+.search_input_field{
+    width: 120px;
+    border: none; 
+    outline: none;          
+    box-shadow: none;
+    padding: 0 10px;
+    background-color: transparent;
+    
+}
+
+
+
